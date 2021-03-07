@@ -11,3 +11,4 @@ numpy==1.16.5
 h5py==2.10.0
 idna<3,>=2.5
 gevent
+wikipedia
