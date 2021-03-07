@@ -70,9 +70,9 @@ def upload():
             results.append(str(pred_class[0][i][2]))
             results.append(' , ')
             
-            if i == 0:
-                wiki_content = wikipedia.page(wikipedia.search(str(pred_class[0][i][1])[0])).content
-                results.append('{'+'Description of : '+ pred_class[0][i][1] + ',' + wiki_content[0:wiki_content.find(".")]+'}')
+            #if i == 0:
+            #    wiki_content = wikipedia.page(wikipedia.search(str(pred_class[0][i][1])[0])).content
+            #    results.append('{'+'Description of : '+ pred_class[0][i][1] + ',' + wiki_content[0:wiki_content.find(".")]+'}')
         
         os.remove(file_path)
         
