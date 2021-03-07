@@ -1,1 +1,1 @@
-# ImageClassifyApp
+# ImageClassifierApp
