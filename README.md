@@ -1,9 +1,7 @@
 # MobileNetV2ImageClassifyApp
 
-[App](https://desolate-tor-97919.herokuapp.com)
-
-公園にいる野鳥や草花の名前を妻によく聞かれるので(自分は知るわけがない)、そんな時に使えたらいいなと思い作成した。
-
+[App](https://desolate-tor-97919.herokuapp.com) 
+公園にいる野鳥や草花の名前を妻によく聞かれるので(自分は知るわけがない)、そんな時に使えたらいいなと思い作成した。 
 ImageNetでの学習済みの重みを使用している。
 
 ```bash
